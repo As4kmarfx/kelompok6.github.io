@@ -1,0 +1,133 @@
+body
+{
+   background-color: #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+*
+{
+   scrollbar-color: rgba(0,139,139,1.00) rgba(79,79,79,1.00);
+}
+*::-webkit-scrollbar
+{
+   width: 16px;
+}
+*::-webkit-scrollbar-track
+{
+   background: rgba(79,79,79,1.00);
+}
+*::-webkit-scrollbar-thumb
+{
+   background-color: rgba(0,139,139,1.00);
+}
+*::-webkit-scrollbar-corner
+{
+   background: rgba(79,79,79,1.00);
+}
+*::-webkit-scrollbar-thumb:hover
+{
+   background-color: rgba(138,43,226,1.00);
+   border-color: rgba(128,0,0,1.00);
+}
+#Layer1
+{
+   background-color: transparent;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   animation: animate-fade-in 3000ms linear 0ms 1 normal both, puff-in 2390ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0ms 1 normal both;
+}
+#Layer1
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+#Layer1-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #000000;
+   opacity: 0.33;
+   z-index: -1;
+}
+#Layer1-video
+{
+   background: #000000;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   z-index: -99;
+}
+#Layer1-video video
+{
+   object-fit: cover;
+   pointer-events: none;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   animation: vanish-in 1019ms linear 0ms 1 normal both;
+}
+#wb_Text1
+{
+   color: #FFFFFF;
+   font-family: "Bw Seido Raw DEMO";
+   font-weight: normal;
+   font-size: 75px;
+}
+#wb_Text1 div
+{
+   text-align: center;
+}
+#wb_Text1
+{
+   display: inline-block;
+   margin: 0;
+   width: 1025px;
+   height: 199px;
+}
+#Layer2
+{
+   background-color: #000080;
+   background-image: none;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+}
+#Layer2
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+#Layer3
+{
+   background-color: #F8F9FA;
+   background-image: none;
+   border-radius: 0px;
+}

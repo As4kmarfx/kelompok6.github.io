@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>KELOMPOK6</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/KELOMPOK_6.css" rel="stylesheet">
+<link href="css/Beranda.css" rel="stylesheet">
+<script src="jquery-3.7.1.min.js"></script>
+<script src="wwb19.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $(window).on('resize', function()
+   {
+      ResponsiveVideo('Layer1-video');
+   });
+   ResponsiveVideo('Layer1-video');
+});
+</script>
+<!-- Insert Google Analytics code here -->
+<style>
+#Layer1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    display: inline-flex;
+    z-index: 2;
+    overflow: hidden; /* tambahkan overflow: hidden; untuk menghindari scroll di latar belakang video */
+}
+
+#Layer2 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: inline-flex;
+    z-index: 3;
+}
+</style>
+</head>
+<body>
+<div id="Layer1">
+    <div id="Layer1-video">
+        <video src="Jakarta night traffic, Indonesia  - Timelapse - 4k.mp4" autoplay loop muted playsinline></video>
+    </div>
+    <div id="Layer1-overlay"></div>
+    <div id="Layer1_Container" style="width:100%">
+        <div id="wb_Text1">
+            <span style="color:#FFFFFF;"><strong>K-6 Artikel</strong><br><strong>Is Everyone Developments!</strong></span>
+        </div>
+    </div>
+</div>
+<div id="Layer2">
+    <div id="Layer2_Container" style="width:100%">
+        <div id="Layer3" style="display:inline-block;position:relative;text-align:left;width:611px;height:199px;z-index:1;">
+        </div>
+    </div>
+</div>
+</body>
+</html>
